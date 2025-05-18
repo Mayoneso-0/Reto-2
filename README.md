@@ -1,7 +1,7 @@
 ## Reto 2
 Diagrama de clases de una fabrica de ultiles escolares.
 
-'''mermaid
+```mermaid
 ---
 config:
   theme: redux-dark
@@ -57,4 +57,4 @@ direction TB
     MaquinaColores --|> Empaquetar
     MaquinaLapices --|> Empaquetar
     Fabrica --|> Empaquetar
-'''
+```
